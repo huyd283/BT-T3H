@@ -1,6 +1,11 @@
 *{
     line-height: 1.35;
 }
+.content{
+    width: 1000px;
+    height: auto;
+    border: 1px solid #333;
+}
 h1{
     color: aqua;
     text-align: center;
@@ -45,7 +50,7 @@ a:after{
     height: 3px;
     width: 0;
     background: red;
-    transition: .5s;
+    transition: 1s;
 
 }
 a:after{
