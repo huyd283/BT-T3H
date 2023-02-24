@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DemoForm</title>
+    <link rel="stylesheet" href="../../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <form action="" method="post">
+                <label for="">Fullname:</label>
+                <input type="text" name="fullname" required placeholder="text"/>
+                <br>
+                <label for="">Age: </label>
+                <input type="number" name="Age"  placeholder="number" value="10" min="0" max="100"/>
+                <br>
+                <label for="">Email: </label>
+                <input type="email" name="email" required placeholder="text"/>
+                <br>
+                <label for="">Password: </label>
+                <input type="password" name="pwd" required placeholder="text"/>
+                <br>
+                <label for="">Phone: </label>
+                <input type="tel" name="telephone"  placeholder="number"/>
+                <br>
+                <label for="">Birtday: </label>
+                <input type="date" name="Birtday"  placeholder="text"/>
+                <br>
+                <label for="">Gender: </label>
+                <label for="">
+                    <input type="radio" name="gender" value="Nam" />Nam
+                </label> 
+                <label for="">
+                    <input type="radio" name="gender" value="Nu" />Nu
+                </label>
+                <label for="">
+                    <input type="radio" name="gender" value="Khac" />Khac
+                </label>
+                <br>
+                <label for="">Favorite: </label>
+                <label for="">
+                    <input type="checkbox" name="Favorite[]" value="Nam" />Playgame
+                </label> 
+                <label for="">
+                    <input type="checkbox" name="Favorite[]" value="Nu" />Singing
+                </label>
+                <label for="">
+                    <input type="checkbox" name="Favorite[]" value="Khac" />Slepp
+                </label>
+                <br>
+                <label for="">City:</label>
+                <select name="city" id="">
+                    <optgroup label="MB" > 
+                    <option value="hp">HaiPhong</option>
+                    <option value="hnam">HaNam</option>
+                    <option value="hn">Ha Noi</option>
+                    </optgroup>
+                    <optgroup label="MN">
+                        <option value="hcm">HCM</option>
+                    </optgroup>
+                </select>
+                <br>
+                <label for="">More info</label>
+                <textarea name="moreinfo" placeholder="More information..." id="" cols="20" rows="2"></textarea>
+                <br>
+                <!-- <label for="">submit</label> -->
+                <button type="submit"> submit </button>
+                <br>
+                <br>
+                <button type="reset"> reset </button>
+                <br>
+                <br>
+                <button type="button">button</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

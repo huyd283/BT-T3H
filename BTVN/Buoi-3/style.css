@@ -1,0 +1,40 @@
+.container{
+    /* margin-left:3%;
+    margin-right: 3%; */
+    margin-top: 5%;
+
+}
+.container-l{
+    border-right: 1px solid #333;
+}
+.container-r{
+    background-color: antiquewhite;
+}
+.contact a {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.contact p {
+    /* float: right; */
+    /* display: flex; */
+}
+.contact, .shipping{
+    margin-top: 5%;
+}
+form > p >a {
+    text-decoration: none;
+}
+.div-t{
+    margin-top: 5%;
+    border-bottom: 1px solid #333;
+}
+.container-r img{
+    width: 40px;
+    height:40px;
+    margin-right: 4%;
+}
+.price{
+    float: right;
+    /* margin-bottom: 30px; */
+}

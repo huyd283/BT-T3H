@@ -1,0 +1,39 @@
+
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serifx`
+}
+body{
+    background-color: rgb(149, 196, 234);
+    align-items: center;
+}
+.left{
+    border-radius: 5px;
+    background-color: white;
+    width: 45%;
+}
+.right{
+    border-radius: 5px;
+    background-color: rgb(19, 98, 101);
+    margin-left: -5px;
+    width: 45%;
+
+}
+.left legend{
+    color: rgb(37, 150, 150);
+}
+.right legend{
+    color: white;
+}
+button[type="submit"]{
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    margin-bottom: 10%;
+}
+.container{
+    margin-top: 10%;
+    border-radius: 100px;
+}
+.input-group p{
+    color: white;
+}

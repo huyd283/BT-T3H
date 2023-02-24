@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormBoostrap</title>
+    <link rel="stylesheet" href="../../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-5 left">
+                <legend>General Information</legend>
+                <form class="row g-3">
+                    <div class="col-12">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Empty</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- <label for="firstname" class="form-label">Fisrt Name</label> -->
+                        <input type="text" class="form-control" placeholder="Fisrt Name" id="">
+                    </div>
+                    <div class="col-md-6">
+                        <!-- <label for="lastname" class="form-label">Last Name</label> -->
+                        <input type="text" class="form-control" placeholder="Last Name" id="">
+                    </div>
+                    <div class="col-12">
+                        <!-- <label for="inputAddress" class="form-label">Address</label> -->
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+                    </div>
+                    <div class="col-12">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Position</option>  
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </div>
+                        <div class="col-md-8">
+                        <!-- <label for="inputCity" class="form-label">City</label> -->
+                        <input type="text" placeholder="Business Arena" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <!-- <label for="inputState" class="form-label">State</label> -->
+                        <select id="inputState" class="form-select">
+                            <option selected>Employees...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                    </div>
+                    </form>
+                </div>
+            <div class="col-5 right">
+                <legend>Contact Detail</legend>
+                    <form class="row g-3">
+                        <div class="col-12">
+                            <input type="text"  class="form-control" id="inputAddress" placeholder="Street + Nr">
+                        </div>
+                        <div class="col-12">
+                            <input type="text"  class="form-control" id="inputAddress" placeholder="Add Information">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="email" placeholder="Zip-code" class="form-control" id="">
+                        </div>  
+                        <div class="col-md-8">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select>
+                        </div>
+                        <div class="col-12">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Country</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" placeholder="Code+" class="form-control" id="">
+                        </div>
+                        <div class="col-md-8">
+                            <input type="text" placeholder="Phone Number" class="form-control" id="">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control" id="inputAddress2" placeholder="Your email">
+                        </div>
+                        <div class="col-12">
+                            <div class="input-group">
+                                <div class="">
+                                  <input class="form-check-input " type="checkbox" value="" >
+                                </div>
+                                <p> I do acceppt the term of your site</p>
+                              </div>
+                        </div>
+                        <div class="col-12 ">
+                            <button type="submit" class="btn btn-primary">Register Badge</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+    </div>
+</body>
+</html>
