@@ -1,0 +1,22 @@
+ body{
+    margin: 0 3%;
+}
+/* .menu{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #333; 
+    margin-bottom: 1 %;
+}  */
+img{
+    width: 100%;
+    height: 100%;
+}
+/* .Goodoffers img{
+    margin-bottom: 10%;
+} */
+@media screen and (max-width: 768px) {
+    .img-respon{
+        width: 760px;
+        height: auto;
+    }
+}

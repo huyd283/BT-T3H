@@ -1,0 +1,29 @@
+body{
+    margin: 0 5%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    /* text-align: center; */
+    z-index: 5;
+}
+.menu > div{
+    align-items: center;
+}
+section{
+    padding-top: 12%;
+    border-bottom: 1px solid #333;
+}
+.page-1{
+    align-items : center; 
+}
+.about-me
+{
+    text-align: center;
+}
+.about-me img{
+    margin-left: 10%;
+}
