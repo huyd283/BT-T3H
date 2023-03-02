@@ -17,6 +17,6 @@ img{
 @media screen and (max-width: 768px) {
     .img-respon{
         width: 760px;
-        height: auto;
+        /* height: 100%; */
     }
 }
