@@ -94,36 +94,76 @@ while(isNaN(f)){
         f = NaN;
     }
 }
-const lucky = [a, b , c, d, e, f];
 
 var g = parseInt(Math.random()*56)+1;
-var h = parseInt(Math.random()*56)+1;
-var i = parseInt(Math.random()*56)+1;
-var j = parseInt(Math.random()*56)+1;
-var k = parseInt(Math.random()*56)+1;
-var l = parseInt(Math.random()*56)+1;
+while(g == h){
+    var h = parseInt(Math.random()*56)+1;
+}
+while(g == i || i ==h){
+    var i = parseInt(Math.random()*56)+1;
+}
+while(g == j || h==j || i==j){
+    var j = parseInt(Math.random()*56)+1;
+}
+while (g == k || h==k || i==k || j==k){
+    var k = parseInt(Math.random()*56)+1;
+}
+while (g == l || h==l || i==l || j==l ||k ==l){
+    var l = parseInt(Math.random()*56)+1;
+}
 
+const lucky = [a, b , c, d, e, f];
 const random = [g, h, i, j, k, l];
 
-let isEqual;
+let isEqual=0;
 
-if(lucky.length !== random.length) {
-isEqual = false;
-}
-else{
-    for (let i = 0; i < lucky.length; i++) {
-        // let count = 0;
-        if(lucky[i] !== random[i]) {
-            isEqual = false;
-            break;
-        }
-        // else if(){}
+// if(lucky.length !== random.length) {
+// isEqual = false;
+// }
+// else{
+//     for (let i = 0; i < lucky.length; i++) {
+//         // let count = 0;
+//         if(lucky[i] !== random[i]) {
+//             isEqual = false;
+//             break;
+//         }
+//         // else if(){}
 
-        isEqual = true;
-    }
+//         isEqual = true;
+//     }
+// }
+// if (isEqual){
+//     alert("Ban da chung thuong jackpot");
+// }
+// else{
+//     alert("Chuc ban may man lan sau");
+// }
+if(a == g || a==h||a==i||a==j||a==k||a==l){
+    isEqual++
 }
-if (isEqual){
-    alert("Ban da chung thuong jackpot");
+if(b == g || b==h||b==i||b==j||b==k||b==l){
+    isEqual++
+}
+if(c == g || c==h||c==i||c==j||c==k||c==l){
+    isEqual++
+}
+if(d == g || d==h||d==i||d==j||d==k||d==l){
+    isEqual++
+}
+if(e == g || e==h||e==i||e==j||e==k||e==l){
+    isEqual++
+}
+if(f == g || f==h||f==i||f==j||f==k||f==l){
+    isEqual++
+}
+if(isEqual==6){
+     alert("Ban da chung thuong jackpot");
+}else if(isEqual==5){
+    alert("Ban da chung thuong 200 trieu");
+}else if(isEqual==4){
+    alert("Ban da chung thuong 10 trieu");
+}else if(isEqual==3){
+    alert("Ban da chung thuong 500.000VND");
 }
 else{
     alert("Chuc ban may man lan sau");
