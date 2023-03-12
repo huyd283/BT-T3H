@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <button class="btn btn-primary" onclick="clickMe()" onmouseenter="mouseEnter()" onmouseleave="mouseLeave()">Click-me</button>
+            <div class="row">
+                <div class="col-3">
+                    <input type="text" onkeypress="searchPress()" onkeyup="searchup()" onkeydown="search()" name="search" id="search" placeholder="Search...">
+                <select name="select" onchange="change(this)" id="" class="form-control">
+                    <option value="Nam">Nam</option>
+                    <option value="Nu">Nu</option>
+                    <option value="Khac">Khac</option>
+                </select>    
+                </div>
+            </div>
+        </div>
+    </section>
+    <script lang="javascript" src="./buoi8.js" >
+        // function Clickme(){
+        //     var t = prompt("Ten ban la gi");
+        //     alert("Xin chao " + t);
+        // }
+    </script>
+</body>
+</html>
