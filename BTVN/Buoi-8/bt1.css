@@ -1,0 +1,8 @@
+.elem{
+    width: 30%;
+    height: auto;
+    background-color: rgb(107, 214, 214);
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
