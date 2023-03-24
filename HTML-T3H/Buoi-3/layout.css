@@ -1,7 +1,13 @@
 body{
     background-image: url(https://thuthuatnhanh.com/wp-content/uploads/2020/01/anh-bau-troi-xanh-lam-background-powerpoint.jpg);
 }
+.main{
+    display: flex;
+    justify-content: space-between;
+}
 .content{
+    box-sizing: border-box;
     background-color: rgba(164, 99, 99, 0.4);
-    display:inline-flexbox        
+    margin-bottom: 20px;
+
 } 

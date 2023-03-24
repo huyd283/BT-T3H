@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- <section>
+        <div class="container">
+            <select class="form-control" name="" id="change" onchange="change()">
+                <option value="hanoi">HaNoi</option>
+                <option value="saigon">TP.HCM</option>
+                <option value="london">London</option>
+                <option value="newyork">NewYork</option>
+            </select>
+            <h1 id="city">
+                Hà Nội, Việt Nam
+            </h1>
+            <h2>
+                <span id="temp">
+                29    
+                </span>
+                <sup>o</sup>
+                <span id="sub-temp">
+                    C
+                </span> 
+            </h2>
+        </div>
+        <div class="container">
+            <select name="" id="temp" onchange="change()">
+                <option value="celsius">Celsius</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+        </div>
+    </section> -->
+    <section>
+        <div class="container">
+            <select id="select-city" class="form-control" onchange="loadWeather()">
+                <option value="hanoi">Hà Nội</option>
+                <option value="saigon">TP HCM</option>
+                <option value="london">London</option>
+                <option value="new york">New York</option>
+            </select>  
+            <select id="units" class="form-control" onchange="loadWeather()">
+                <option value="C">C</option>
+                <option value="K">K</option>
+            
+            </select>    
+            <h1 id="city">Hà Nội, Việt Nam</h1>
+            <h2><span id="temp">29</span><sup>o</sup>
+            <span id="sub-temp">
+                C
+            </span>   
+            </h2>
+            <p id="desc">Hôm nay trời nhiều mây</p>
+        </div>
+    </section>
+    <script lang="js" src="./demo.js"></script>
+</body>
+</html>
